@@ -3,3 +3,12 @@ data/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+# Models and Large Binaries
+*.pt
+*.pth
+*.bin
+
+# Cache directories
+cache_covid_project/
+__pycache__/
+.ipynb_checkpoints/
