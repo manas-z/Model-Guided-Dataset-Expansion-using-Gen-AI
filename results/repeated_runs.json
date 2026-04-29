@@ -1,0 +1,39 @@
+[
+  {
+    "seed": 42,
+    "source": "main.ipynb final test output",
+    "note": "Single executed notebook run. Add more seeds before submitting a stronger paper.",
+    "methods": {
+      "baseline": {
+        "accuracy": 0.8710,
+        "macro_recall": 0.8910,
+        "macro_f1": 0.8724,
+        "covid_recall": 0.8840
+      },
+      "continue_only": {
+        "accuracy": 0.8758,
+        "macro_recall": 0.8950,
+        "macro_f1": 0.8773,
+        "covid_recall": 0.9116
+      },
+      "focal_loss": {
+        "accuracy": 0.8720,
+        "macro_recall": 0.8800,
+        "macro_f1": 0.8742,
+        "covid_recall": 0.9006
+      },
+      "real_oversample": {
+        "accuracy": 0.8772,
+        "macro_recall": 0.8950,
+        "macro_f1": 0.8806,
+        "covid_recall": 0.9254
+      },
+      "gan_augmented": {
+        "accuracy": 0.8767,
+        "macro_recall": 0.8970,
+        "macro_f1": 0.8788,
+        "covid_recall": 0.9033
+      }
+    }
+  }
+]

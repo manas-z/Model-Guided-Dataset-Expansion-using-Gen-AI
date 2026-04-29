@@ -1,0 +1,6 @@
+method,n,accuracy_mean,accuracy_std,macro_f1_mean,macro_f1_std,macro_recall_mean,macro_recall_std
+baseline,1,0.871,0.0,0.8724,0.0,0.891,0.0
+continue_only,1,0.8758,0.0,0.8773,0.0,0.895,0.0
+focal_loss,1,0.872,0.0,0.8742,0.0,0.88,0.0
+gan_augmented,1,0.8767,0.0,0.8788,0.0,0.897,0.0
+real_oversample,1,0.8772,0.0,0.8806,0.0,0.895,0.0

@@ -1,0 +1,6 @@
+method,accuracy,macro_recall,macro_f1,covid_recall
+Baseline,0.8710,0.8910,0.8724,0.8840
+Continue only,0.8758,0.8950,0.8773,0.9116
+Focal loss,0.8720,0.8800,0.8742,0.9006
+Real oversample,0.8772,0.8950,0.8806,0.9254
+GAN augmented,0.8767,0.8970,0.8788,0.9033
